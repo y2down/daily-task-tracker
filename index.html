@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Task Tracker</h1>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Add new task">
+      <button id="addBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="filter-section">
+      <button id="allBtn" class="active">All</button>
+      <button id="activeBtn">Active</button>
+      <button id="completedBtn">Completed</button>
+      <button id="clearCompletedBtn">Clear Completed</button>
+    </div>
+  </div>
+  <footer>
+    <p>Powered by <a href="https://www.y2down.app/" target="_blank">Y2Down</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
